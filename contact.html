@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="contact.css" />
+  </head>
+  <body>
+    <div class="filter">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="projects.html">Projects</a>
+      <a href="https://github.com/hakareem" target="_blank">GitHub</a>
+      <a href="https://www.linkedin.com/in/hkareem/" target="_blank"
+        >Linkedin</a
+      >
+    </div>
+    <div id="page-wrapper">
+      <h1>Harith's Contact Form</h1>
+      <div id="form-messages"></div>
+      <form id="contact" method="post" action="#">
+        <div class="field">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+        </div>
+        <div class="field">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+        <div class="field">
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" required></textarea>
+        </div>
+        <div class="field">
+          <button type="submit">Send</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

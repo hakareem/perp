@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <script src="https://use.fontawesome.com/8f736f1956.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="filter">
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+        <a href="https://github.com/hakareem" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/hkareem/" target="_blank"
+          >Linkedin</a
+        >
+        <h1 id="glower">Harith A Kareem</h1>
+        <h6 id="glower2">Software Engineer Apprentice</h6>
+      </div>
+
+      <div id="circle-orbit-container">
+        <div class="center-div">
+          <img id="d" class="pic" src="harith.jfif" alt="profile picture" />
+        </div>
+
+        <div id="inner-orbit">
+          <div
+            onclick="javascript:divHideShow('divInfo');divHideShow('divO');"
+            class="info-btn"
+          >
+            <i class="fas fa-info"></i>
+          </div>
+
+          <div onclick="javascript:divHideShow('divK');" class="contact-btn">
+            <i class="far fa-address-card"></i>
+          </div>
+
+          <div
+            onclick="javascript:divHideShow('divC');divHideShow('divD');"
+            class="portfolio-btn"
+          >
+            <i class="fas fa-tasks"></i>
+          </div>
+        </div>
+
+        <div id="middle-orbit">
+          <a
+            class="github-btn"
+            href="https://github.com/hakareem"
+            target="_blank"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a
+            class="linkedin-btn"
+            href="https://www.linkedin.com/in/hkareem/"
+            target="_blank"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+        </div>
+
+        <div id="outer-orbit">
+          <a
+            class="freecodecamp-btn"
+            href="https://www.freecodecamp.org/hkareem"
+            target="_blank"
+            ><i class="fab fa-free-code-camp"></i
+          ></a>
+          <a
+            class="codepen-btn"
+            href="https://codepen.io/hkareem"
+            target="_blank"
+            ><i class="fab fa-codepen"></i
+          ></a>
+          <a
+            class="link slack-btn"
+            href="https://slack.com/intl/en-gb/"
+            target="_blank"
+            ><i class="fab fa-slack"></i
+          ></a>
+          <a class="link html-btn" href="projects.html"
+            ><i class="fab fa-html5"></i
+          ></a>
+
+          <a class="link js-btn" href="projects.html"
+            ><i class="fab fa-js"></i
+          ></a>
+
+          <a class="link css-btn" href="projects.html"
+            ><i class="fab fa-css3-alt"></i
+          ></a>
+        </div>
+      </div>
+
+      <div id="divK" class="contact">
+        Contact Me
+        <form action="#">
+          <label for="fname"></label>
+          <input
+            type="text"
+            id="fname"
+            name="firstname"
+            placeholder="Enter your name"
+          />
+          <label for="lname"></label>
+          <input
+            type="text"
+            id="lname"
+            name="lastname"
+            placeholder="Enter your email"
+          />
+          <label for="subject"></label>
+          <textarea
+            id="subject"
+            name="subject"
+            placeholder="Message"
+            style="height: 200px"
+          ></textarea>
+          <div class="send-btn">Send</div>
+          <div onclick="javascript:divHideShow('divK');" class="close-btn">
+            Close
+          </div>
+        </form>
+      </div>
+
+      <div
+        id="divC"
+        class="bar"
+        onclick="javascript:divHideShow('divC');divHideShow('divD');"
+      >
+        <h2>Close</h2>
+      </div>
+  <div
+        id="divC"
+        class="bar2"
+  
+      >
+        <h1>My Projects</h1>
+      </div>
+
+      <div id="divD" class="gallery">
+        <a href="#" target="_blank"
+          ><img class="gallery-img" src="/Project Pictures/type counter.PNG"
+        /></a>
+        <a href="#" target="_blank"
+          ><img class="gallery-img" src="/Project Pictures/counter.PNG"
+        /></a>
+        <a href="#" target="_blank"><img class="gallery-img" src="/Project Pictures/snake.PNG" /></a>
+        <a href="https://hakareem.github.io/CanvasBallProject/" target="_blank"><img class="gallery-img" src="/Project Pictures/canvasBall.PNG" /></a>
+       <a href="#" target="_blank"><img class="gallery-img" src="/Project Pictures/carDealerShip.PNG" /></a>
+        <a href="https://hakareem.github.io/ImposterRaceProject/" target="_blank"><img class="gallery-img" src="/Project Pictures/imposterRace.PNG" /></a>
+       <a href="#" target="_blank"> <img class="gallery-img" src="/Project Pictures/quiz.PNG" /></a>
+        <a href="#" target="_blank"><img class="gallery-img" src="/Project Pictures/snowballz.PNG" /></a>
+        <a href="#" target="_blank"><img class="gallery-img" src="/Project Pictures/treasure.PNG" /></a>
+        <a href="#" target="_blank"><img class="gallery-img" src="/Project Pictures/jenga.PNG" /></a>
+        <a href="#" target="_blank"><img class="gallery-img" src="/Project Pictures/slider.PNG" /></a>
+        <a href="#" target="_blank"><img class="gallery-img" src="/Project Pictures/consumption.PNG" /></a>
+      </div>
+
+      <div id="divO" class="overlay">
+        <div id="divInfo" class="info">
+          <h1 id="info-h1">Hello I'm Harith</h1>
+          <p>
+            Aspiring Software Developer<br />
+            Coding Bootcamp Graduate<br />
+          </p>
+          <p id="info-p">
+            I primarly like to focus on front-end development! My projects have
+            been reflections on my own interests and passions. With each, I
+            maintain sleek modern design to present a sense of ease throughout
+            the user experience and their interaction with the projects.
+          </p>
+          <p id="info-p">
+            I would like to learn more programming languages that will help
+            broaden my knowledge about the tech industry and make it possible
+            for me to perhabs move on to full stack developement later on.
+          </p>
+          <p id="info-p">
+            I like to create a well-designed website that can function the way
+            it was built. But, more importantly, I design with the intention for
+            it to provide a good user experience and helps make my website
+            visitors access and navigate it with ease.
+          </p>
+          <p id="info-p">
+            I set improvment as my main long term goal. Always striving to
+            develop and grow not only as a person but also as a developer.
+          </p>
+          <i
+            onclick="javascript:divHideShow('divInfo');divHideShow('divO');"
+            class="cbtn fa fa-times-circle fa-2x"
+            aria-hidden="true"
+          ></i>
+        </div>
+      </div>
+    </header>
+
+    <!-- <footer>
+      <p class="copyright"></p>
+    </footer> -->
+  </body>
+</html>
