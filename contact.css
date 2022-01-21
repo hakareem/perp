@@ -2,7 +2,7 @@
   padding: 10px 20px;
   display: inline-block;
   color: #003;
-  background: #eee;
+  background: rgb(250, 250, 250);
   text-decoration: none;
   transition: all 0.2s;
   border-radius: 9px;
@@ -75,7 +75,9 @@ button {
 
 button:hover,
 button:focus {
-  opacity: 0.75;
+  /* opacity: 0.75; */
+  /* color: #b94a48; */
+  background-color: rgb(255, 6, 6);
   cursor: pointer;
 }
 

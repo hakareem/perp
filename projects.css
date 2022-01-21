@@ -1,21 +1,5 @@
-.filter a {
-  padding: 10px 20px;
-  display: inline-block;
-  color: #003;
-  background: #eee;
-  text-decoration: none;
-  transition: all 0.2s;
-  border-radius: 9px;
-}
-.filter a:hover {
-  background: rgb(7, 106, 255);
-}
-.filter {
-  padding: 50px;
-  text-align: center;
-}
 
-@import url("https://fonts.googleapis.com/css?family=Amatic+SC|Exo+2|Pacifico|Roboto");
+/* @import url("https://fonts.googleapis.com/css?family=Amatic+SC|Exo+2|Pacifico|Roboto"); */
 
 * {
   margin: 0 auto;
@@ -26,16 +10,36 @@ body {
   margin: 0 auto;
 }
 
+
+
+.filter a {
+  padding: 10px 20px;
+  display: inline-block;
+  color: #003;
+  background: #eee;
+  text-decoration: none;
+  transition: all 0.2s;
+  border-radius: 9px;
+
+}
+.filter a:hover {
+  background: rgb(7, 106, 255);
+}
+.filter {
+  padding: 50px;
+  text-align: center;
+}
+
 #projects {
   background-size: 100%;
   margin-right: 15px;
   margin-left: 15px;
   text-align: center;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   height: 730px;
 }
 #port-head {
-  color: #e1ebff;
+  color: #0457ff;
   font-size: 2rem;
   font-family: "Pacifico", cursive;
   padding: 2%;
@@ -79,7 +83,7 @@ body {
 }
 .site-container-outer a {
   text-decoration: none;
-  color: black;
+  color: rgb(69, 165, 31);
 }
 .site-link {
   color: #b80000;
@@ -90,8 +94,6 @@ body {
   color: #ff9999;
 }
 
-/* card filp animation below */
-/* entire container, keeps perspective */
 .flip-container {
   perspective: 1000px;
 }
@@ -109,21 +111,21 @@ body {
 }
 .front,
 .back {
-  background-color: #eee;
+  background-color: rgb(246, 246, 246);
   width: 280px;
   height: 280px;
   border-radius: 50%;
-  border: solid black;
+  border:2px solid rgb(29, 151, 199);
 }
 
-/* flip speed goes here */
+
+
 .flipper {
   transition: 0.6s;
   transform-style: preserve-3d;
   position: relative;
 }
 
-/* hide back of pane during swap */
 .front,
 .back {
   backface-visibility: hidden;
@@ -136,7 +138,6 @@ body {
 /* front pane, placed above back */
 .front {
   z-index: 2;
-  /* for firefox 31 */
   transform: rotateY(0deg);
 }
 

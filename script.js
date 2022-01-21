@@ -9,15 +9,12 @@ function divHideShow(divToHideOrShow) {
 }
 
 // const copyright = document.querySelector(".copyright");
-
 // const date = new Date();
 // const year = date.getFullYear();
-
 // copyright.textContent = `Copyright ${year}, Harith A Kareem`;
 
 function myFunction(x) {
   if (x.matches) {
-    // If media query matches
     window.addEventListener("hashchange", function () {
       scrollBy(0, 0);
     });
@@ -29,5 +26,5 @@ function myFunction(x) {
 }
 
 let x = window.matchMedia("(max-width: 600px)");
-myFunction(x); // Call listener function at run time
-x.addListener(myFunction); // Attach listener function on state changes
+myFunction(x); 
+x.addListener(myFunction); 

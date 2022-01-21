@@ -4,7 +4,7 @@ body {
   text-align: center;
   font-family: "Roboto", sans-serif;
   color: #222;
-  background: #f7f5f0;
+  background: #fdfdfd;
 }
 
 .filter a {
@@ -26,7 +26,7 @@ body {
 /* sssssssssssssss */
 .process {
   position: relative;
-  background-color: #3a337b;
+  background-color: #580909;
   color: #fff;
   background-size: cover;
   opacity: 0.9;
@@ -225,7 +225,7 @@ body {
   transition: all 0.5s;
 }
 .card:hover {
-  border-color: #ff99ff;
+  border-color: #ff1904;
 }
 
 ul.skills {
@@ -250,7 +250,7 @@ ul.skills {
 @media screen and (min-width: 720px) {
   .flex {
     display: flex;
-    max-width: 1200px;
+    max-width: 2000px;
     justify-content: space-around;
     margin: 20px;
   }
