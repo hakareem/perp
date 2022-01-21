@@ -4,7 +4,7 @@ body {
   text-align: center;
   font-family: "Roboto", sans-serif;
   color: rgb(221, 50, 50);
-  background: #fdfdfd;
+  background: #ffffff;
 }
 header {
   line-height: 1.5;
@@ -180,7 +180,6 @@ header {
   line-height: 2.8em;
   text-align: center;
   cursor: pointer;
-  -webkit-animation: spin-left 30s linear infinite;
   animation: spin-left 30s linear infinite;
 }
 

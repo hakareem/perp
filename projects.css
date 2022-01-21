@@ -97,7 +97,7 @@ body {
 .flip-container {
   perspective: 1000px;
 }
-/* flip the pane when hovered */
+
 .flip-container:hover .flipper,
 .flip-container.hover .flipper {
   transform: rotateY(180deg);
@@ -135,18 +135,16 @@ body {
   left: 0;
 }
 
-/* front pane, placed above back */
 .front {
   z-index: 2;
   transform: rotateY(0deg);
 }
 
-/* back, initially hidden pane */
 .back {
   transform: rotateY(180deg);
 }
 
-/* Media Re-sizing for mobile */
+
 @media only screen and (max-width: 1020px) {
   #project-container {
     display: grid;
