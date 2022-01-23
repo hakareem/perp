@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Fira+Mono:wght@500&display=swap');
 body {
   margin: 0;
   padding: 0;
@@ -9,15 +10,21 @@ body {
 
 .filter a {
   padding: 10px 20px;
+  margin-bottom: 15px;
   display: inline-block;
   color: #003;
   background: #eee;
   text-decoration: none;
+  /* font-family: 'Fira Mono', monospace; */
   transition: all 0.2s;
   border-radius: 9px;
 }
 .filter a:hover {
-  background: rgb(7, 106, 255);
+  /* background: rgb(7, 106, 255); */
+    background: rgb(0, 0, 0);
+  color: white;
+  box-shadow:  2px 2px 2px #ff00f2,
+                -2px -2px 2px #e604e6;
 }
 .filter {
   padding: 50px;
@@ -26,10 +33,10 @@ body {
 /* sssssssssssssss */
 .process {
   position: relative;
-  background-color: #580909;
+  background-color: #000000;
   color: #fff;
   background-size: cover;
-  opacity: 0.9;
+  opacity: 1;
   min-height: 750px;
   clip-path: polygon(0 14%, 100% 0, 100% 100%, 0 84%);
   margin-top: -83px;

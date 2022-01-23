@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Fira+Mono:wght@500&display=swap');
+
 body {
   margin: 0;
   padding: 0;
   text-align: center;
   font-family: "Roboto", sans-serif;
+  /* font-family: 'Fira Mono', monospace; */
   color: rgb(221, 50, 50);
   background: #ffffff;
 }
@@ -23,7 +26,11 @@ header {
   font-size: small;
 }
 .filter a:hover {
-  background: rgb(7, 106, 255);
+  /* background: rgb(7, 106, 255); */
+  background: rgb(0, 0, 0);
+  color: white;
+  box-shadow:  1px 2px 2px #02d6fb,
+                -1px -2px 2px #e604e6;
 }
 .filter {
   padding: 50px;
