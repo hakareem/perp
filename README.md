@@ -9,8 +9,8 @@ This was a fantastic learning opportunity for me as I was able to demonstrate ev
 # Areas for improvement
 My portfolio can certainly be developed and improved further. I will do this by:
 
-Simplifying user experience 
-Being selective with projects
-Custom Web URL 
-Appealing Visual Design and Layout
-Project Description
+• Simplifying user experience <br>
+• Being selective with projects <br>
+• Custom Web URL <br>
+• Appealing Visual Design and Layout <br>
+• Project Description <br>
