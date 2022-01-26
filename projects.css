@@ -22,13 +22,13 @@ body {
   text-decoration: none;
   transition: all 0.2s;
   border-radius: 9px;
-
+  font-family: "Roboto", sans-serif;
 }
 .filter a:hover {
   background: rgb(0, 0, 0);
   color: white;
-  box-shadow:  1px 2px 2px #d9ff02,
-                -1px -2px 2px #d9ff02;
+  box-shadow:  1px 2px 2px #42489e,
+                -1px -2px 2px #4149b1;
 }
 .filter {
   padding: 50px;

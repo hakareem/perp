@@ -39,6 +39,8 @@ body{
 
 h3 {
     font-family: 'Permanent Marker', cursive;
+  /* font-family: "Roboto", sans-serif; */
+
 }
 .container{
     width: 100%;
@@ -86,6 +88,34 @@ h3 {
 
 .webDesign {
      background-image: url("./Certificatess/WebDesign.PNG");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.closure{
+    background-image: url("./Certificatess/closures.PNG");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.generation {
+     background-image: url("./Certificatess/generation.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ecma6 {
+     background-image: url("./Certificatess/ecma6.PNG");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.typescript {
+     background-image: url("./Certificatess/typescript.PNG");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
