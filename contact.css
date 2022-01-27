@@ -49,7 +49,7 @@
   color: white;
   text-shadow: 1px 1px #5b5b5b;
 }
-.card-body {
+.sideCard {
   height: 45%;
   background-color: #f8f8f8;
   display: flex;
@@ -69,8 +69,7 @@
   padding: 12px 10px;
 }
 
-/* sss */
-#page-wrapper {
+#formContainer {
   max-width: 34em;
   width: 50%;
   background: #ffffff;

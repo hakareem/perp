@@ -49,7 +49,7 @@ header {
   border-radius: 90%;
 }
 
-#circle-orbit-container {
+#circleContainer {
   position: absolute;
   margin: auto;
   top: 0;
@@ -60,7 +60,7 @@ header {
   width: 300px;
 }
 
-#inner-orbit {
+#innerCircle {
   position: absolute;
   z-index: 8;
   top: 15px;
@@ -72,7 +72,7 @@ header {
   animation: spin-right 20s linear infinite;
 }
 
-.info-btn {
+.infoBtn {
   position: absolute;
   z-index: 9999;
   top: 65px;
@@ -88,7 +88,7 @@ header {
   animation: spin-left 20s linear infinite;
 }
 
-.contact-btn {
+.contactBtn {
   position: absolute;
   z-index: 9999;
   top: 20px;
@@ -104,7 +104,7 @@ header {
   animation: spin-left 20s linear infinite;
 }
 
-.portfolio-btn {
+.portfolioBtn {
   position: absolute;
   z-index: 9999;
   top: 245px;
@@ -120,7 +120,7 @@ header {
   animation: spin-left 20s linear infinite;
 }
 
-#middle-orbit {
+#middleCircle {
   position: absolute;
   z-index: 2;
   top: -30px;
@@ -132,7 +132,7 @@ header {
   animation: spin-left 25s linear infinite;
 }
 
-.github-btn {
+.githubBtn {
   position: absolute;
   top: 25px;
   left: 37px;
@@ -147,7 +147,7 @@ header {
   animation: spin-right 25s linear infinite;
 }
 
-.linkedin-btn {
+.linkedinBtn {
   position: absolute;
   z-index: 9999;
   top: 285px;
@@ -163,7 +163,7 @@ header {
   animation: spin-right 25s linear infinite;
 }
 
-#outer-orbit {
+#outerCircle {
   position: absolute;
   top: -75px;
   left: -75px;
@@ -174,7 +174,7 @@ header {
   animation: spin-right 30s linear infinite;
 }
 
-.freecodecamp-btn {
+.freecodecampBtn {
   position: absolute;
   cursor: pointer;
   top: -8px;
@@ -190,7 +190,7 @@ header {
   animation: spin-left 30s linear infinite;
 }
 
-.codepen-btn {
+.codepenBtn {
   position: absolute;
   top: 200px;
   left: 440px;
@@ -205,7 +205,7 @@ header {
   animation: spin-left 30s linear infinite;
 }
 
-.slack-btn {
+.slackBtn {
   position: absolute;
   z-index: 9999;
   top: 400px;
@@ -221,7 +221,7 @@ header {
   animation: spin-left 30s linear infinite;
 }
 
-.html-btn {
+.htmlBtn {
   position: absolute;
   top: 375px;
   left: 360px;
@@ -235,7 +235,7 @@ header {
   cursor: pointer;
   animation: spin-left 30s linear infinite;
 }
-.css-btn {
+.cssBtn {
   position: absolute;
   z-index: 9999;
   top: 310px;
@@ -250,7 +250,7 @@ header {
   cursor: pointer;
   animation: spin-left 30s linear infinite;
 }
-.js-btn {
+.jsBtn {
   position: absolute;
   /* top: 360px; */
   left: 310px;
@@ -447,7 +447,7 @@ input[type="submit"] {
   opacity: 0.98;
 }
 
-#info-h1 {
+#infoH1 {
   font-family: "Montserrat", Helvetica, Arial, sans-serif;
   z-index: 99;
   top: 20%;
@@ -457,22 +457,20 @@ input[type="submit"] {
   color: rgb(255, 255, 255);
   line-height: 0em;
 }
-#info-p {
+#infoP {
   font-family: "Montserrat", Helvetica, Arial, sans-serif;
-  z-index: 99;
-  font-size: 1.3em;
+  font-size: 1.2em;
   text-align: center;
   color: rgb(255, 255, 255);
 }
 
 .cbtn {
-  margin-top: -50px;
+  /* margin-top: -10px; */
   width: 100%;
   cursor: pointer;
   color: #ff1904;
   text-align: center;
 }
-/* sasasssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss */
 
 #glower {
   animation: text-glow 1s ease-in-out infinite alternate;
