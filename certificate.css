@@ -42,6 +42,10 @@ h3 {
   /* font-family: "Roboto", sans-serif; */
 
 }
+
+p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
 .container{
     width: 100%;
     height: 100%;
