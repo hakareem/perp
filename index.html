@@ -30,9 +30,10 @@
         <h6 id="glower2">Aspiring Software Engineer</h6>
       </div>
 
+      <!-- icons -->
       <div id="circleContainer">
-        <div class="center-div">
-          <img id="d" class="pic" src="./interfacePics/harith.jpg" alt="profile picture" />
+        <div>
+          <img class="pic" src="./interfacePics/harith.jpg" alt="profile picture" />
         </div>
 
         <div id="innerCircle">
@@ -103,22 +104,25 @@
         </div>
       </div>
 
+      <!-- contact -->
       <div id="divK" class="contact">
         Contact Me
-        <form action="#">
+        <form action="https://formsubmit.co/harithakareem72@gmail.com" method="POST">
           <label for="fname"></label>
           <input
             type="text"
             id="fname"
             name="firstname"
             placeholder="Enter your name"
+            required
           />
-          <label for="lname"></label>
+          <label for="email"></label>
           <input
             type="text"
-            id="lname"
-            name="lastname"
+            id="email"
+            name="email"
             placeholder="Enter your email"
+            required
           />
           <label for="subject"></label>
           <textarea
@@ -126,14 +130,16 @@
             name="subject"
             placeholder="Message"
             style="height: 200px"
+            required
           ></textarea>
-          <div class="send-btn">Send</div>
+          <div type="submit" class="send-btn">Send</div>
           <div onclick="javascript:divHideShow('divK');" class="close-btn">
             Close
           </div>
         </form>
       </div>
 
+      <!-- projects -->
       <div
         id="divC"
         class="bar"
@@ -161,6 +167,7 @@
         <a href="https://hakareem.github.io/Tribute/" target="_blank"><img class="gallery-img" src="./Project Pictures/tribute.PNG" /></a>
       </div>
 
+      <!-- info section -->
       <div id="divO" class="overlay">
         <div id="divInfo" class="info">
           <h1 id="infoH1">Hello I'm Harith</h1>
@@ -186,6 +193,7 @@
           <p id="infoP">
           I'm also constantly trying to improve those technical skills not just by creating side projects but taking a serious academic approach to learning fundamental concepts like data structures and algorithms.
           </p>
+          <!-- close btn -->
           <i
             onclick="javascript:divHideShow('divInfo');divHideShow('divO');"
             class="cbtn fa fa-times-circle fa-2x"

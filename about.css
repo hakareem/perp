@@ -20,8 +20,7 @@ body {
   border-radius: 9px;
 }
 .filter a:hover {
-  /* background: rgb(7, 106, 255); */
-    background: rgb(0, 0, 0);
+  background: rgb(0, 0, 0);
   color: white;
   box-shadow:  2px 2px 2px #ff0000,
                 -2px -2px 2px #3d48df;
@@ -30,8 +29,8 @@ body {
   padding: 50px;
   text-align: center;
 }
-/* sssssssssssssss */
-.process {
+
+.designShape {
   position: relative;
   background-color: #000000;
   color: #fff;
@@ -43,38 +42,44 @@ body {
   padding-top: 140px;
 }
 
-.mySkils {
-  display: block;
-  text-align: center;
-  font-family: "Raleway", sans-serif;
-  margin-bottom: 0px;
-  color: #fff;
-  font-size: 72px;
-  margin-top: -8;
-  letter-spacing: 3px;
-  margin-bottom: 50px;
-}
-
-.mySkils span {
-  display: block;
-  font-size: 14px;
-  padding-left: 90px;
-  padding-bottom: 0;
-  font-weight: 400;
-  color: #fff;
-  margin-bottom: 0;
-  letter-spacing: 0;
-}
-
 .line {
-  background-color: #fff;
-  height: 2px;
+  background-color: rgb(255, 5, 5);
+  height: 3px;
   border: 0;
   transform: rotate(90deg);
   width: 36px;
   float: center;
   margin: auto;
   margin-top: -20px;
+  background: linear-gradient(
+    50deg,
+    #274fbd,
+    #01d8fd,
+    #14dfea,
+    #3fc12a,
+    #f9ac07,
+    #fa0303,
+    #e912a3,
+    #7a3bca,
+    #f9ac07,
+    #7a3bca
+  );
+  background-size: 400% 400%;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
 }
 
 .grid {
@@ -172,55 +177,6 @@ body {
   font-size: 12px;
 }
 
-.top-line {
-  background-color: #211a62;
-  height: 2px;
-  border: 0;
-  transform: rotate(90deg);
-  width: 36px;
-  float: center;
-  margin: auto;
-  margin-left: 311px;
-  margin-top: -53.5px;
-}
-
-.bottom-line {
-  background-color: #211a62;
-  height: 3px;
-  border: 0;
-  transform: rotate(90deg);
-  width: 36px;
-  float: center;
-  margin: auto;
-  position: relative;
-  top: 12.5px;
-  left: -18px;
-}
-
-.left-line {
-  background-color: #211a62;
-  float: center;
-  height: 2px;
-  border: 0;
-  width: 36px;
-  position: relative;
-  left: 229px;
-  top: 70px;
-}
-
-.right-line {
-  background-color: #211a62;
-  float: right;
-  height: 2px;
-  border: 0;
-  width: 36px;
-  position: relative;
-  left: 0;
-  top: 60px;
-}
-
-/* sssssssssssssssssss */
-
 .card {
   margin: 50px;
   padding: 0;
@@ -281,23 +237,3 @@ ul.skills {
   }
 }
 
-/* footer {
-  width: 100%;
-  min-height: 30px;
-  padding: 20px 0 40px 20px;
-}
-
-footer .copyright {
-  top: -8px;
-  font-size: 0.75em;
-}
-
-footer ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-footer ul li {
-  display: inline-block;
-} */
