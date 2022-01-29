@@ -112,7 +112,7 @@ header {
   height: 40px;
   width: 40px;
   border-radius: 100%;
-  background: #098f26;
+  background: #d8577b;
   color: #fff;
   line-height: 2.8em;
   text-align: center;
@@ -173,7 +173,23 @@ header {
   border-radius: 100%;
   animation: spin-right 30s linear infinite;
 }
-
+/* sssssssss */
+.spotifyBtn{
+  position: absolute;
+  cursor: pointer;
+  top: 120px;
+  left: -10px;
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  background-color: #00ff00;
+  color: #fff;
+  line-height: 2.8em;
+  text-align: center;
+  cursor: pointer;
+  animation: spin-left 30s linear infinite;
+}
+/* ssssssssss */
 .freecodecampBtn {
   position: absolute;
   cursor: pointer;
@@ -182,7 +198,7 @@ header {
   height: 40px;
   width: 40px;
   border-radius: 100%;
-  background-color: #c9cc03;
+  background-color: #fba505;
   color: #fff;
   line-height: 2.8em;
   text-align: center;
@@ -192,13 +208,13 @@ header {
 
 .codepenBtn {
   position: absolute;
-  top: 200px;
-  left: 440px;
+  top: 190px;
+  left: 435px;
   height: 40px;
   width: 40px;
   border-radius: 100%;
-  background: rgb(255, 255, 255);
-  color: #000;
+  background: rgb(0, 0, 0);
+  color: rgb(255, 250, 250);
   line-height: 2.8em;
   text-align: center;
   cursor: pointer;
@@ -208,13 +224,13 @@ header {
 .slackBtn {
   position: absolute;
   z-index: 9999;
-  top: 400px;
-  left: 80px;
+  top: 428px;
+  left: 165px;
   height: 40px;
   width: 40px;
   border-radius: 100%;
-  background: #f8056b;
-  color: #fff;
+  background: #725252;
+  color: rgb(255, 255, 255);
   line-height: 2.8em;
   text-align: center;
   cursor: pointer;
@@ -243,8 +259,8 @@ header {
   height: 40px;
   width: 40px;
   border-radius: 100%;
-  background: #c2f47b;
-  color: #fff;
+  background: #0dd3b8;
+  color: rgb(251, 251, 251);
   line-height: 2.8em;
   text-align: center;
   cursor: pointer;
