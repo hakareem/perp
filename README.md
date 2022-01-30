@@ -5,7 +5,7 @@
 # Learning Experience 
 This was a fantastic learning opportunity for me as I was able to demonstrate evidence of my relevant skills and abilities. I definitely improved various skills, for example I had to apply my creative thinking skills to innovate new designs and possibilities for my project.
 
-What I Changed 
+<h1>What I Changed </h1>
 • Added external Link buttons to the top of the site <br>
 • Added Nav buttons to quickly get to your desired section <br>
 • Added a new section for skills and changed section order (this messed with the original formatting quite a bit) <br>
