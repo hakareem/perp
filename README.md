@@ -1,4 +1,4 @@
-# My Developer Portfolio Website! ⚡️
+<h1 style="color:blue">My Developer Portfolio Website! ⚡️</h1>
  I have used HTML & CSS & Javascript to build this project. I created a personal profile to serve as an introduction. Within the project, I shared my technical experiences, professional goals and strengths. 
 
 
@@ -11,7 +11,7 @@ This was a fantastic learning opportunity for me as I was able to demonstrate ev
 • Added a new section for skills and changed section order (this messed with the original formatting quite a bit) <br>
 • Built a functional Contact Form <br>
 
-What I learned
+<h1>What I learned</h1>
 • CSS Animations <br>
 • Deployed to Github Pages <br>
 • Project structure <br>
