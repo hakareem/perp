@@ -1,4 +1,4 @@
-<h1 style="color:blue">My Developer Portfolio Website! ⚡️</h1>
+<h1 style="color: blue; font-size: 46px;">My Developer Portfolio Website! ⚡️</h1>
  I have used HTML & CSS & Javascript to build this project. I created a personal profile to serve as an introduction. Within the project, I shared my technical experiences, professional goals and strengths. 
 
 
