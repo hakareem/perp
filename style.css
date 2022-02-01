@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Fira+Mono:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Fira+Mono:wght@500&display=swap");
 
 body {
   margin: 0;
@@ -12,8 +12,6 @@ body {
 header {
   line-height: 1.5;
 }
-
-
 
 .filter a {
   padding: 10px 20px;
@@ -29,8 +27,7 @@ header {
   /* background: rgb(7, 106, 255); */
   background: rgb(0, 0, 0);
   color: white;
-  box-shadow:  1px 2px 2px #02d6fb,
-                -1px -2px 2px #e604e6;
+  box-shadow: 1px 2px 2px #02d6fb, -1px -2px 2px #e604e6;
 }
 .filter {
   padding: 50px;
@@ -174,7 +171,7 @@ header {
   animation: spin-right 30s linear infinite;
 }
 /* sssssssss */
-.spotifyBtn{
+.cvBtn {
   position: absolute;
   cursor: pointer;
   top: 120px;
@@ -221,7 +218,7 @@ header {
   animation: spin-left 30s linear infinite;
 }
 
-.slackBtn {
+.reactBtn {
   position: absolute;
   z-index: 9999;
   top: 428px;
@@ -401,14 +398,12 @@ input[type="submit"] {
   animation: myMove 0.2s linear 0s 1 normal;
   animation-direction: alternate;
   transition: all 0.3s;
-
 }
 
 .bar:hover {
   /* background-color: #fdfdfd; */
   color: rgb(209, 22, 22);
 }
-
 
 .gallery {
   display: none;
@@ -432,7 +427,7 @@ input[type="submit"] {
 }
 
 .gallery-img:hover {
-  border-color:  #5ffb05;
+  border-color: #5ffb05;
 }
 
 .info {
