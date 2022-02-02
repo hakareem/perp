@@ -31,7 +31,7 @@
           >Linkedin</a
         >
         <h1 id="glower">Harith A Kareem</h1>
-        <h6 id="glower2">Aspiring Software Engineer</h6>
+        <h6 id="glower2">Software Engineer</h6>
       </div>
 
       <!-- icons -->
@@ -90,32 +90,29 @@
             class="freecodecampBtn"
             href="https://www.freecodecamp.org/hkareem"
             target="_blank"
-            ><i class="fab fa-free-code-camp"></i
-          ></a>
-          <a
-            class="codepenBtn"
+            ><i class="fab fa-free-code-camp"></i>
+          </a>
+          <a class="codepenBtn"
             href="https://codepen.io/hkareem"
-            target="_blank"
-            ><i class="fab fa-codepen"></i
-          ></a>
+            target="_blank">
+            <i class="fab fa-codepen"></i>
+          </a>
 
-          <div
-            onclick="javascript:divHideShow('divReact');divHideShow('divT');"
-            class="reactBtn"
-          >
+          <div onclick="javascript:divHideShow('divReact');divHideShow('divT');"class="reactBtn">
             <i class="fab fa-react"></i>
+          </div> 
+
+          <a class="codewarsBtn" href="https://www.codewars.com/users/hkareem" target="_blank">
+            <i class="fas fa-code"></i>
+          </a>
+
+          <div onclick="javascript:divHideShow('divJs');divHideShow('divJ');"class="jsBtn">
+          <i class="fab fa-js"></i>
           </div>
-          <a class="link htmlBtn" href="projects.html"
-            ><i class="fab fa-html5"></i
-          ></a>
 
-          <a class="link jsBtn" href="projects.html"
-            ><i class="fab fa-js"></i
-          ></a>
-
-          <a class="link cssBtn" href="projects.html"
-            ><i class="fab fa-css3-alt"></i
-          ></a>
+          <div onclick="javascript:divHideShow('divCss');divHideShow('divN');"class="bootstrapBtn">
+          <i class="fab fa-bootstrap"></i>
+          </div>
         </div>
       </div>
 
@@ -212,7 +209,7 @@
         <div id="divInfo" class="info">
           <h1 id="infoH1">Hello I'm Harith</h1>
           <p>
-            Aspiring Software Developer<br />
+            Software Developer<br />
             Coding Bootcamp Graduate<br />
           </p>
           <p id="infoP">
@@ -251,13 +248,14 @@
       <!-- react section -->
       <div id="divT" class="overlay">
         <div id="divReact" class="info">
+          <h1 id="infoH1">React</h1>
+          <br>
           <p id="infoP">
+            By covering the core concepts of EcamScript6+, it will make my transition process into React much easier as I won't struggle with Import/Export syntax, array methods or spread operator etc. These are some of the things that I have already covered in Javascript.<br><br>
             I recently started learning React to expand on my Javascript
             knowledge. I'm doing this through online courses and building small
-            projects on the side to apply my understanding.
-            <br />
-            <br />So far I have covered various concepts such as Components,
-            State, JSX and Props.
+            projects on the side to apply my understanding. So far I have covered various concepts such as Components, State, JSX and Props. <br><br>
+            I wanted to learn some React because it's very time efficient on development since it's components based. Later on I will be able to break down an interface into reusable components that would allow me to build dynamtic user interfaces.
           </p>
           <i
             onclick="javascript:divHideShow('divReact');divHideShow('divT');"
@@ -266,6 +264,44 @@
           ></i>
         </div>
       </div>
+
+
+      <!-- Javascript section -->
+      <div id="divJ" class="overlay">
+        <div id="divJs" class="info">
+          <h1 id="infoH1">Javascript</h1>
+          <br>
+          <p id="infoP">
+          I beleive I'm quite comfortable with Javascript. I have learnt about DOM creation and modifcation, the different types of loops and their use cases. I understand how scope and Hoisting work and what an immediatley invoked function expression does.<br><br>
+          These are some of the advanced Javascript topics that I have covered in some of my previous projects. I find Javascript to be super engaging and fun which is why I'm looking for other ways such as framworks to build upon my existing knowledge and become a more experienced developer.
+          </p>
+          <i
+            onclick="javascript:divHideShow('divJs');divHideShow('divJ');"
+            class="cbtn fa fa-times-circle fa-2x"
+            aria-hidden="true"
+          ></i>
+        </div>
+      </div>
+
+      <!-- CSS section -->
+      <div id="divN" class="overlay">
+        <div id="divCss" class="info">
+          <h1 id="infoH1">Bootstrap</h1>
+          <br>
+          <p id="infoP">
+          I have covered the fundamentals of HTML and CSS. I have worked with HTML5 semantic layout and I applied animations with keyframes & transitions. I have completed various projects that only utilise HTML and with for practise and I made sure that I know how to follow core accesibility features for example by adding alternative text to image sources. <br><br>
+          I built websites with the consideration for responsive design using Media Queries. I'm comfortable with other essential concepts of CSS such as positioning and styling. Whereas for HTML5 I have worked with HTML Canvas, forms and page structures.<br><br>
+          I'm now looking to move forward and use Bootstrap because it far more efficient when it comes to creating websites. Bootstrap is also a great framework that supports mobile-responsive front end programming and it would allow me to create applications that are visually appealing. I will be building projects using Bootstrap to establish a solid understanding of the core concepts.
+          </p>
+          <i
+            onclick="javascript:divHideShow('divCss');divHideShow('divN');"
+            class="cbtn fa fa-times-circle fa-2x"
+            aria-hidden="true"
+          ></i>
+        </div>
+      </div>
+
+
     </header>
 
     <!-- <footer>
