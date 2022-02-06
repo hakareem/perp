@@ -210,7 +210,7 @@ header {
   height: 40px;
   width: 40px;
   border-radius: 100%;
-  background: rgb(251, 5, 5);
+  background: #0fd2e4;
   color: rgb(255, 250, 250);
   line-height: 2.8em;
   text-align: center;
@@ -248,7 +248,7 @@ header {
   cursor: pointer;
   animation: spin-left 30s linear infinite;
 }
-.bootstrapBtn {
+.sassBtn {
   position: absolute;
   z-index: 9999;
   top: 310px;
@@ -256,7 +256,7 @@ header {
   height: 40px;
   width: 40px;
   border-radius: 100%;
-  background: #0dd3b8;
+  background: #be2edd;
   color: rgb(251, 251, 251);
   line-height: 2.8em;
   text-align: center;
