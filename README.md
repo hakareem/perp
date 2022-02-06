@@ -15,6 +15,7 @@ This was a fantastic learning opportunity for me as I was able to demonstrate ev
 • CSS Animations <br>
 • Deployed to Github Pages <br>
 • Project structure <br>
+• Responsive Design
 
 # Areas for improvement
 My portfolio can certainly be developed and improved further. I will do this by:
