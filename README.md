@@ -3,7 +3,7 @@
 
 
 # Learning Experience 
-This was a fantastic learning opportunity for me as I was able to demonstrate evidence of my relevant skills and abilities. I definitely improved various skills, for example I had to apply my creative thinking skills to innovate new designs and possibilities for my project.
+This was a fantastic learning opportunity for me as I was able to demonstrate evidence of my relevant skills and abilities. I definitely improved various skills, for example I had the opportunity to apply my creativity skills to innovate new designs and possibilities for the project. I designed it this particular way to serve as a single page application where you can click links and you'll be taken to other parts of the project.
 
 <h1>What I Changed </h1>
 • Added external Link buttons to the top of the site <br>
