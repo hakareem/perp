@@ -5,7 +5,6 @@ body {
   padding: 0;
   text-align: center;
   font-family: "Roboto", sans-serif;
-  /* font-family: 'Fira Mono', monospace; */
   color: rgb(221, 50, 50);
   background: #ffffff;
 }
@@ -336,7 +335,7 @@ input[type="submit"] {
   border: 1px solid #ccc;
   background: #34fd02fa;
   border-radius: 5px;
-  font-family: Helvetica, Arial, sans-serif;
+  /* font-family: Helvetica, Arial, sans-serif; */
   cursor: pointer;
   color: rgb(0, 0, 0);
   text-align: center;
@@ -358,7 +357,7 @@ input[type="submit"] {
   border: 1px solid rgb(7, 7, 7);
   background: #ffffff;
   border-radius: 5px;
-  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+  /* font-family: "Montserrat", Helvetica, Arial, sans-serif; */
   cursor: pointer;
   color: rgb(3, 3, 3);
   text-align: center;
@@ -459,7 +458,7 @@ input[type="submit"] {
 }
 
 #infoH1 {
-  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+  /* font-family: "Montserrat", Helvetica, Arial, sans-serif; */
   z-index: 99;
   top: 20%;
   bottom: 80%;
@@ -469,7 +468,7 @@ input[type="submit"] {
   line-height: 0em;
 }
 #infoP {
-  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+  /* font-family: "Montserrat", Helvetica, Arial, sans-serif; */
   font-size: 1.2em;
   text-align: center;
   color: rgb(255, 255, 255);
@@ -486,7 +485,7 @@ input[type="submit"] {
 #glower {
   animation: text-glow 1s ease-in-out infinite alternate;
   color: #00baff;
-  /* font-family: "Righteous", cursive; */
+  font-family: "Righteous", cursive;
   /* font-size: 10px; */
   font-size: 1.8rem;
   margin: 1em 0 1em 0;
@@ -499,7 +498,7 @@ input[type="submit"] {
 #glower2 {
   animation: text-glow 1s ease-in-out infinite alternate;
   color: #00baff;
-  /* font-family: "Righteous", cursive; */
+  font-family: "Righteous", cursive;
   font-size: 1.2rem;
   margin: 1em 0 1em 0;
   text-align: center;
