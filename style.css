@@ -486,7 +486,7 @@ input[type="submit"] {
 #glower {
   animation: text-glow 1s ease-in-out infinite alternate;
   color: #00baff;
-  font-family: "Righteous", cursive;
+  /* font-family: "Righteous", cursive; */
   /* font-size: 10px; */
   font-size: 1.8rem;
   margin: 1em 0 1em 0;
@@ -499,7 +499,7 @@ input[type="submit"] {
 #glower2 {
   animation: text-glow 1s ease-in-out infinite alternate;
   color: #00baff;
-  font-family: "Righteous", cursive;
+  /* font-family: "Righteous", cursive; */
   font-size: 1.2rem;
   margin: 1em 0 1em 0;
   text-align: center;
