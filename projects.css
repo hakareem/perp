@@ -1,11 +1,10 @@
 /* @import url("https://fonts.googleapis.com/css?family=Amatic+SC|Exo+2|Pacifico|Roboto"); */
-@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Fira+Mono:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Fira+Mono:wght@500&display=swap");
 
 * {
   margin: 0 auto;
   padding: 0;
   font-family: "Roboto", cursive;
-  /* font-family: 'Fira Mono', monospace; */
 }
 body {
   margin: 0 auto;
@@ -24,8 +23,7 @@ body {
 .filter a:hover {
   background: rgb(0, 0, 0);
   color: white;
-  box-shadow:  1px 2px 2px #42489e,
-                -1px -2px 2px #4149b1;
+  box-shadow: 1px 2px 2px #42489e, -1px -2px 2px #4149b1;
 }
 .filter {
   padding: 50px;
@@ -43,7 +41,7 @@ body {
 #port-head {
   color: #1d0df5;
   font-size: 2rem;
-  font-family: "Pacifico", cursive;
+  /* font-family: "Pacifico", cursive; */
   padding: 2%;
   background: linear-gradient(
     50deg,
@@ -84,7 +82,7 @@ body {
   margin: 1rem;
   border-radius: 5px;
   cursor: pointer;
-  font-family: "Exo 2", san-serif;
+  /* font-family: "Exo 2", san-serif; */
   background-color: wheat;
   font-size: 0.8rem;
 }
@@ -146,12 +144,9 @@ body {
   width: 280px;
   height: 280px;
   border-radius: 50%;
-  border:2px solid #0509fd;
-  box-shadow:  2px 2px 2px #03e0fd,
-                -2px -2px 2px #fd1803;
+  border: 2px solid #0509fd;
+  box-shadow: 2px 2px 2px #03e0fd, -2px -2px 2px #fd1803;
 }
-
-
 
 .flipper {
   transition: 0.6s;
@@ -176,7 +171,6 @@ body {
 .back {
   transform: rotateY(180deg);
 }
-
 
 @media only screen and (max-width: 1020px) {
   #project-container {
