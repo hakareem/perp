@@ -2,7 +2,7 @@
  I have used HTML & CSS & Javascript to build this project. I created a personal profile to serve as an introduction. Within the project, I shared my technical experiences, professional goals and strengths. 
 
 
-# Learning Experience 
+# Learning Experience  
 This was a fantastic learning opportunity for me as I was able to demonstrate evidence of my relevant skills and abilities. I definitely improved various skills, for example I had the opportunity to apply my creativity skills to innovate new designs and possibilities for the project. I designed it this particular way to serve as a single page application where you can click links and you'll be taken to other parts of the project.
 
 <h1>What I Changed </h1>
@@ -14,8 +14,8 @@ This was a fantastic learning opportunity for me as I was able to demonstrate ev
 <h1>What I learned</h1>
 • CSS Animations <br>
 • Deployed to Github Pages <br>
-• Project structure <br>
-• Responsive Design
+• Project structure <br> 
+• Responsive Design 
 
 # Areas for improvement
 My portfolio can certainly be developed and improved further. I will do this by:
