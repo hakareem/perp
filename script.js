@@ -25,6 +25,6 @@ function myFunction(x) {
   }
 }
 
-let x = window.matchMedia("(max-width: 600px)");
-myFunction(x);
+let xo = window.matchMedia("(max-width: 600px)");
+myFunction(xo);
 x.addListener(myFunction);
