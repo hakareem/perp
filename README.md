@@ -11,7 +11,7 @@ This was a fantastic learning opportunity for me as I was able to demonstrate ev
 • Added a new section for skills and changed section order (this messed with the original formatting quite a bit) <br>
 • Built a functional Contact Form <br>
 
-<h1>What I learned</h1>
+<h1>What I learned</h1> 
 • CSS Animations <br>
 • Deployed to Github Pages <br>
 • Project structure <br> 
