@@ -1,7 +1,6 @@
 <h1 style="color: blue; font-size: 46px;">My Developer Portfolio Website! ⚡️</h1>
  I have used HTML & CSS & Javascript to build this project. I created a personal profile to serve as an introduction. Within the project, I shared my technical experiences, professional goals and strengths. 
 
-
 # Learning Experience  
 This was a fantastic learning opportunity for me as I was able to demonstrate evidence of my relevant skills and abilities. I definitely improved various skills, for example I had the opportunity to apply my creativity skills to innovate new designs and possibilities for the project. I designed it this particular way to serve as a single page application where you can click links and you'll be taken to other parts of the project.
 
@@ -15,7 +14,8 @@ This was a fantastic learning opportunity for me as I was able to demonstrate ev
 • CSS Animations <br>
 • Deployed to Github Pages <br>
 • Project structure <br> 
-• Responsive Design 
+• Responsive Design <br>
+• Media Queries
 
 # Areas for improvement
 My portfolio can certainly be developed and improved further. I will do this by:
